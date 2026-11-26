@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "IVO-mod Connector",
+  "version": "0.4.0",
+  "description": "IVO-mod connector: installs the IVO-mod core into the game tab automatically when it loads.",
+  "permissions": ["debugger", "storage"],
+  "host_permissions": ["https://pokesurvivor.com/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "IVO-mod Connector" },
+  "web_accessible_resources": []
+}
